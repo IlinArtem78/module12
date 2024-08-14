@@ -16,28 +16,23 @@ class Program
             user.Name = Console.ReadLine();
             Console.WriteLine("Введите логин:");
             user.Login = Console.ReadLine();
-            
-            user.IsPremium = true;
+            Console.WriteLine("Введите премиум подписку:");
+            user.IsPremium = bool.Parse(Console.ReadLine()); ;
             Console.WriteLine($"Премиум подписа: {user.IsPremium}");
             k++;
             users.Add(user);
+            if (!user.IsPremium)
+            {
+                ShowAds();
+            }
         }
 
         foreach (var user in users)
         {
-           
-           Console.WriteLine(user.Login, user.Name, user.IsPremium);
-
+             Console.WriteLine(user.Login, user.Name, user.IsPremium);
         }
-      //  User user1 = new User();
-       // user1.Name = Console.ReadLine(); 
-       // Console.WriteLine(user1.Name);
-     //   if (user1.IsPremium != true)
-       // {
-       //     ShowAds(); 
-       // }
-    
-    }
+      
+
     static void ShowAds()
     {
         Console.WriteLine("Посетите наш новый сайт с бесплатными играми free.games.for.a.fool.com");
