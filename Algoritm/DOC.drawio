@@ -57,6 +57,15 @@
         <mxCell id="FzXP9uDSoEiRFsyPPEVm-28" value="Событие??" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-272" y="303" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="FzXP9uDSoEiRFsyPPEVm-29" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-811" y="105" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FzXP9uDSoEiRFsyPPEVm-30" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-769" y="118" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FzXP9uDSoEiRFsyPPEVm-31" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-853" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
