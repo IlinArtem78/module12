@@ -40,18 +40,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FzXP9uDSoEiRFsyPPEVm-17" value="Компонент&amp;nbsp; Загрузчик" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-648" y="280" width="60" height="30" as="geometry" />
+          <mxGeometry x="-648" y="256" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FzXP9uDSoEiRFsyPPEVm-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="FzXP9uDSoEiRFsyPPEVm-22" target="FzXP9uDSoEiRFsyPPEVm-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FzXP9uDSoEiRFsyPPEVm-22" value="Модель данных doc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-439" y="259" width="120" height="60" as="geometry" />
+          <mxGeometry x="-437" y="259" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FzXP9uDSoEiRFsyPPEVm-23" value="Получение бинарных данных о файле" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-571" y="241" width="128" height="102" as="geometry" />
+          <mxGeometry x="-586" y="212" width="141" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="FzXP9uDSoEiRFsyPPEVm-24" value="Привзякf" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FzXP9uDSoEiRFsyPPEVm-24" value="Привзка" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-280" y="259" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FzXP9uDSoEiRFsyPPEVm-39" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="FzXP9uDSoEiRFsyPPEVm-25">
@@ -59,7 +59,7 @@
             <mxPoint x="-121" y="214" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FzXP9uDSoEiRFsyPPEVm-25" value="Таблица с бинарными&amp;nbsp; данными&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="FzXP9uDSoEiRFsyPPEVm-25" value="Колонка с бинарными данными" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="259" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FzXP9uDSoEiRFsyPPEVm-28" value="Событие" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -96,13 +96,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FzXP9uDSoEiRFsyPPEVm-36" value="Если файл загружен, то: вызывается событие&amp;nbsp;&lt;div&gt;changeInfo&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-717" y="360" width="198" height="129" as="geometry" />
+          <mxGeometry x="-717" y="327" width="198" height="129" as="geometry" />
         </mxCell>
-        <mxCell id="FzXP9uDSoEiRFsyPPEVm-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Оставшийся проблемы&lt;/h1&gt;&lt;p&gt;1) Как реализовать потерю связи SDK и DEV.&amp;nbsp;&lt;/p&gt;&lt;p&gt;2) Получение данные по API&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FzXP9uDSoEiRFsyPPEVm-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Оставшийся проблемы&lt;/h1&gt;&lt;p&gt;1) Как реализовать потерю связи SDK и DEV.&amp;nbsp;&lt;/p&gt;&lt;p&gt;2) Получение данные по API&amp;nbsp;&lt;/p&gt;&lt;p&gt;3) Нестабильная работа SDK&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="38" y="324" width="311" height="120" as="geometry" />
         </mxCell>
         <mxCell id="FzXP9uDSoEiRFsyPPEVm-41" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Решение&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="447" y="324" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FzXP9uDSoEiRFsyPPEVm-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-49" y="-67" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FzXP9uDSoEiRFsyPPEVm-44" value="AGG SDK (DOC) (C#). Агент" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="518" width="1283" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="FzXP9uDSoEiRFsyPPEVm-46" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="FzXP9uDSoEiRFsyPPEVm-36" target="FzXP9uDSoEiRFsyPPEVm-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzXP9uDSoEiRFsyPPEVm-47" value="ОСНОВАНАЯ ПРОБЛЕМА: Необходима адаптация на .Net 8.0.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-706" y="543" width="1265" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
